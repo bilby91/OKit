@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (1.1.4)
+  - Nimble (0.2.0)
+  - Nocilla (0.9.0)
+  - ObjectMapper (1.0.0)
+  - Quick (0.2.0)
+
+DEPENDENCIES:
+  - Alamofire (from `../Alamofire`)
+  - Nimble (from `https://github.com/Quick/Nimble`)
+  - Nocilla
+  - ObjectMapper (from `../ObjectMapper/ObjectMapper.podspec`)
+  - Quick (from `https://github.com/Quick/Quick`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :path: ../Alamofire
+  Nimble:
+    :git: https://github.com/Quick/Nimble
+  ObjectMapper:
+    :path: ../ObjectMapper/ObjectMapper.podspec
+  Quick:
+    :git: https://github.com/Quick/Quick
+
+CHECKOUT OPTIONS:
+  Nimble:
+    :commit: 89affdde2b3bc946b4ff33683dc3b573548e9c3c
+    :git: https://github.com/Quick/Nimble
+  Quick:
+    :commit: b790a913fff13465400d93436906b6fc5bb2f0ea
+    :git: https://github.com/Quick/Quick
+
+SPEC CHECKSUMS:
+  Alamofire: 6a2cbaebe78a6d469bc55ee37f0a24ba22af76ac
+  Nimble: 79679d4cd5a3710db75e1dd9f5479f71842da6a6
+  Nocilla: 4d713c56e7357fd0cac0363854d4a58021ad3f41
+  ObjectMapper: 5eba0cd26d0d21ea114ced089d21aa52c26b46f6
+  Quick: fdcce541eb5d73f5ac78f95c770ca6d6d69f0b81
+
+COCOAPODS: 0.36.0
